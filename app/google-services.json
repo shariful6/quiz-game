@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "93321684936",
+    "firebase_url": "https://jobnpxs-bf466.firebaseio.com",
+    "project_id": "jobnpxs-bf466",
+    "storage_bucket": "jobnpxs-bf466.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93321684936:android:a96fd53c7c9f5203ac42fd",
+        "android_client_info": {
+          "package_name": "com.shkhan.jobnpxs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93321684936-ua87ih5r9vkfdqmbgfuhnc61t91ndk7a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shkhan.jobnpxs",
+            "certificate_hash": "49268a1563004592e3a31e274e1a02b188ad106b"
+          }
+        },
+        {
+          "client_id": "93321684936-bffbqeqgooqjb258hsl6k27ush9118qs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZGVmX5Zhh9eVZQaSRPPstED6fCSHK5_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93321684936-bffbqeqgooqjb258hsl6k27ush9118qs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

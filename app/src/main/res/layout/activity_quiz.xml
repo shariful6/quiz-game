@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F1598C"
+    tools:context=".QuizActivity">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>
+    <TextView
+        android:text="invalid Click: "
+        android:gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/invalidClickID"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/scoreID"
+        android:layout_width="141dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Correct Ans: 0"
+        android:textColor="#000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/questionViewID"
+        android:layout_width="325dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/scoreID"
+        android:layout_centerInParent="true"
+        android:background="#fafafa"
+        android:padding="2dp"
+        android:text="Question"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn1ID"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/questionViewID"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_bg2"
+        android:text="Option 1"
+        android:textAllCaps="false"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/btn2ID"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn1ID"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_bg2"
+        android:text="Option 2"
+        android:textAllCaps="false"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/btn3ID"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn2ID"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_bg2"
+        android:text="Option 3"
+        android:textAllCaps="false"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/btn4ID"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn3ID"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_bg2"
+        android:text="Option 4"
+        android:textAllCaps="false"
+        android:textSize="16dp" />
+
+
+    <TextView
+        android:id="@+id/viewId"
+        android:layout_width="91dp"
+        android:layout_height="34dp"
+        android:layout_alignEnd="@+id/questionViewID"
+        android:layout_alignTop="@+id/scoreID"
+        android:gravity="center"
+        android:text="View: 0"
+        android:textColor="#000"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/nextBtnID"
+        android:layout_width="120dp"
+        android:layout_below="@+id/btn4ID"
+        android:layout_height="40dp"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:background="@drawable/btn_bg4"
+        android:layout_centerInParent="true"
+        />
+
+
+
+</RelativeLayout>

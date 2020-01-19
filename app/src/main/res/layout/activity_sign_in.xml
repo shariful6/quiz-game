@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#F1598C"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity">
+
+
+    <EditText
+        android:id="@+id/emailID_signIn"
+        android:background="#f1e7e7"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:hint="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/passID_signIn"
+        android:layout_marginTop="5dp"
+        android:background="#f1e7e7"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:inputType="textPassword"
+        android:textSize="18dp"
+        android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/singInBtnID"
+        android:layout_width="155dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_bg"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:textSize="20dp" />
+    <ProgressBar
+        android:id="@+id/progressbarLoginID"
+        android:visibility="gone"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

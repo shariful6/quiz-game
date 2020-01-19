@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#F1598C"
+    android:layout_height="match_parent"
+    tools:context=".WithdrawActivity">
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+
+    </com.google.android.gms.ads.AdView>
+<LinearLayout
+    android:layout_marginTop="15dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <TextView
+        android:text="Your Balance: "
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/balenceWithdrawID"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#FFF"
+        android:textSize="25dp" />
+
+</LinearLayout>
+
+    <TextView
+        android:text="Minimum Withdraw 6500 NPXS\nTransfer fee will be deducted"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_notifications_active_black_24dp"
+        android:textColor="#000"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/walletETID"
+        android:hint="Wallet Address"
+        android:layout_width="347dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="#FFF"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/amountETID"
+        android:layout_width="214dp"
+        android:layout_height="44dp"
+        android:background="#FFF"
+        android:gravity="center"
+        android:inputType="number"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:hint="Amount" />
+
+
+    <Button
+        android:id="@+id/submitBtnID"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_bg"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:textSize="25dp" />
+
+
+</LinearLayout>
